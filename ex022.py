@@ -1,0 +1,8 @@
+nome = str(input('informe o nome completo: '))
+print('nome todo maiusculo: ', nome.upper())
+print('nome todo em minusculo: ', nome.lower())
+nome1 = nome.split()
+nome2 = ''.join(nome1)
+print('no total seu nome tem {} letras!'.format(len(nome2)))
+nome3 = nome.split()
+print('\033[30mo preimeiro nome é: \033[36m{}\n\033[30me ele tem \033[36m{}\033[m \033[30mletras'.format(nome3[0], len(nome3[0])))
